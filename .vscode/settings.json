@@ -1,0 +1,90 @@
+{
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+
+    "explorer.compactFolders": false,
+    "explorer.sortOrder": "filesFirst",
+
+    "files.trimTrailingWhitespace": true,
+
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+    "javascript.format.semicolons": "remove",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+
+    "json.format.keepLines": true,
+
+    "redhat.telemetry.enabled": false,
+
+    "svelte.plugin.svelte.compilerWarnings": {
+        "a11y-aria-attributes": "ignore",
+        "a11y-incorrect-aria-attribute-type": "ignore",
+        "a11y-unknown-aria-attribute": "ignore",
+        "a11y-hidden": "ignore",
+        "a11y-misplaced-role": "ignore",
+        "a11y-unknown-role": "ignore",
+        "a11y-no-abstract-role": "ignore",
+        "a11y-no-redundant-roles": "ignore",
+        "a11y-role-has-required-aria-props": "ignore",
+        "a11y-accesskey": "ignore",
+        "a11y-autofocus": "ignore",
+        "a11y-misplaced-scope": "ignore",
+        "a11y-positive-tabindex": "ignore",
+        "a11y-invalid-attribute": "ignore",
+        "a11y-missing-attribute": "ignore",
+        "a11y-img-redundant-alt": "ignore",
+        "a11y-label-has-associated-control": "ignore",
+        "a11y-media-has-caption": "ignore",
+        "a11y-distracting-elements": "ignore",
+        "a11y-structure": "ignore",
+        "a11y-mouse-events-have-key-events": "ignore",
+        "a11y-missing-content": "ignore",
+    },
+
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+    "typescript.format.insertSpaceBeforeFunctionParenthesis": false,
+    "typescript.format.semicolons": "remove",
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+
+    "workbench.editor.labelFormat": "short",
+
+    "yaml.format.enable": true,
+    "yaml.format.singleQuote": true,
+    "yaml.format.bracketSpacing": true,
+    "yaml.schemas": {
+        "https://json.schemastore.org/eslintrc.json": "/.eslintrc.yaml",
+    },
+
+    "eslint.validate": [
+        "javascript",
+        "typescript",
+        "svelte",
+    ],
+
+    "[html]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "vscode.html-language-features",
+    },
+
+    "[javascript][javascriptreact][typescript][typescriptreact]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+    },
+
+    "[json][jsonc]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "vscode.json-language-features",
+    },
+
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml",
+        "editor.formatOnSave": false,
+        "editor.tabSize": 2,
+    },
+
+    "[svelte]": {
+        "editor.defaultFormatter": "svelte.svelte-vscode",
+    },
+}
