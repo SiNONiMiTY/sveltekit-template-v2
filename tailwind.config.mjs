@@ -1,3 +1,4 @@
+import FlowbitePlugin from 'flowbite/plugin'
 import defaultTheme from 'tailwindcss/defaultTheme'
 
 /**
@@ -23,7 +24,7 @@ const config = {
         },
     },
     plugins: [
-        import( 'flowbite/plugin' ),
+        FlowbitePlugin,
     ],
     darkMode: 'class',
 }
